@@ -1,0 +1,198 @@
+/* import styled from '@emotion/styled'; */
+
+/* ! 1.ОБЩИЕ Стили для устройств с шириной экрана от 0 до 479px */
+    
+
+    .isOneShopButton {
+        width: 76%;
+        margin-top: 20px;
+        text-decoration: none;
+        padding: 8px 6px;
+        font-weight: 500;
+        cursor: pointer;
+        border: 1px solid #78c482;
+        border-radius: 4px;
+        color: #08b5ff;
+        background-color: #cfe8ff;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+    .isOneShopButton:hover,
+    .isOneShopButton:focus {
+        
+        color: #ff8d8d;
+        border: 1px solid #ff8d8d;
+        /* background-color: #cfe8ff; */
+        box-shadow: 12px 12px 18px rgba(255, 141, 141, 0.23);
+    }
+
+    .isAllShopButton {
+        /* width: 75%; */
+        color: #00a171;
+        background-color: #ddfff4;
+    }
+
+    .accentShop {
+        font-weight: 900;
+    }
+
+
+    .headerShops {
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .list {
+        flex-grow: 1;
+        display: grid;
+        width: 90%;
+            /* ! Задаем 2 столбца равной ширины */
+            grid-template-columns: 1fr 1fr;
+            justify-items:center;
+            /* align-items:center; */
+            /* grid-gap: 7%; */
+            grid-gap: 8px;
+            /* gap: 7%; */
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    /* .listItem {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .selectShopButton {
+        min-width: 120px;
+        text-decoration: none;
+        padding: 8px 10px;
+        font-weight: 700;
+        cursor: pointer;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        color: #16739b;
+        background-color: #fffcde;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectShopButton:hover,
+    .selectShopButton:focus {
+        color: #9b1616;
+        background-color: #fffbcf;
+    }
+
+    .selectShopButtonOpacity {
+        opacity: 0.5;
+
+        background-color: #faf8e2;
+        /* border: 1px solid rgb(110, 110, 110); */
+    }
+
+    .selectOnlyOneShopButtonOpacity {
+        opacity: 0.3;
+        color: rgb(110, 110, 110);
+        border: 1px solid rgb(110, 110, 110);
+    }
+    .selectOnlyOneShopButtonOpacity:hover,
+    .selectOnlyOneShopButtonOpacity:focus {
+        color: rgb(110, 110, 110);
+        /* background-color: #fffbcf; */
+        background-color: inherit;
+    }
+
+
+/* ! 2.Стили для устройств с шириной экрана от 480px до 767px */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .isOneShopButton {
+        width: 60%;
+    }
+    
+    .list {
+        width: 90%;
+        /* ! Задаем 3 столбца равной ширины */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-gap: 2%; */
+        grid-gap: 5px;
+        /* gap: 2%; */
+    }
+}
+
+
+/* ! 3.Стили для устройств с шириной экрана от 768px и и выше */
+@media screen and (min-width: 768px) {
+    .isOneShopButton {
+        /* width: 80%; */
+        width: 120px;
+        padding: 8px 16px;
+    }
+
+    .headerShops {
+        margin-top: 60px;
+    }
+    
+    .list {
+        display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        /* gap: 40px; */
+    }
+}
+
+
+/* ? 4.Стили для устройств с шириной экрана от 1200px и выше */
+/* @media screen and (min-width: 1200px) {
+    .headerShops {
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .list {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            justify-content: flex-start;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .listItem {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .selectShopButton {
+        min-width: 120px;
+        text-decoration: none;
+        padding: 8px 10px;
+        font-weight: 700;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        color: #16739b;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectShopButton:hover,
+    .selectShopButton:focus {
+        background-color: #fffbcf;
+        color: #9b1616;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

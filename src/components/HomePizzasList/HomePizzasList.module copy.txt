@@ -1,0 +1,342 @@
+/* ! 1.Стили для устройств с шириной экрана от 320px до 479px */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .list_OLD {
+        /* todo Пока не нужен */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 20px;
+        padding: 2%;
+        padding-inline-start: 3%;
+        list-style: none;
+    }
+
+    .list {
+        display: grid;
+        /* ! Задаем 1 столбец */
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .listItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+        border: 2px solid rgb(120, 196, 130);
+        border-radius: 8px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+        /* outline: 1px solid tomato; */
+    }
+
+    .imagePizza {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+
+    .namePizza {
+        flex-grow: 1;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 1.1em;
+        color: blue;
+    }
+
+    .pricePizza {
+        display: block;
+        margin-top: 7%;
+        font-size: 1.2em;
+        color: red;
+    }
+
+    .selectPizzaButton {
+        display: inline-block;
+        align-self: flex-end;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        color: #739b16;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectPizzaButton:hover,
+    .selectPizzaButton:focus {
+        background-color: #fffbcf;
+        color: #9b1616;
+    }
+}
+
+
+/* ! 2.Стили для устройств с шириной экрана от 480px до 767px */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .list {
+        display: grid;
+        /* ! Задаем 2 столбца равной ширины */
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .listItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+        border: 2px solid rgb(120, 196, 130);
+        border-radius: 8px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+        /* outline: 1px solid tomato; */
+    }
+
+    .imagePizza {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+
+    .namePizza {
+        flex-grow: 1;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 1.1em;
+        color: blue;
+    }
+
+    .pricePizza {
+        display: block;
+        margin-top: 7%;
+        font-size: 1.2em;
+        color: red;
+    }
+
+    .selectPizzaButton {
+        display: inline-block;
+        align-self: flex-end;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        color: #739b16;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectPizzaButton:hover,
+    .selectPizzaButton:focus {
+        background-color: #fffbcf;
+        color: #9b1616;
+    }
+}
+
+
+/* ! 3.Стили для устройств с шириной экрана от 768px и до 1199px */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .list {
+        display: grid;
+        /* ! Задаем 2 столбца равной ширины */
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .listItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+        border: 2px solid rgb(120, 196, 130);
+        border-radius: 8px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+        /* outline: 1px solid tomato; */
+    }
+
+    .imagePizza {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+
+    .namePizza {
+        flex-grow: 1;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 1.1em;
+        color: blue;
+    }
+
+    .pricePizza {
+        display: block;
+        margin-top: 7%;
+        font-size: 1.2em;
+        color: red;
+    }
+
+    .selectPizzaButton {
+        display: inline-block;
+        align-self: flex-end;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        color: #739b16;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectPizzaButton:hover,
+    .selectPizzaButton:focus {
+        background-color: #fffbcf;
+        color: #9b1616;
+    }
+}
+
+
+/* ! 4.Стили для устройств с шириной экрана от 1200px и до 1599px */
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    .list {
+        display: grid;
+        /* ! Задаем 3 столбца равной ширины */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .listItem {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        border: 2px solid rgb(120, 196, 130);
+        border-radius: 8px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+        /* outline: 1px solid tomato; */
+    }
+
+    .imagePizza {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+
+    .namePizza {
+        flex-grow: 1;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 1.0em;
+        color: blue;
+    }
+
+    .pricePizza {
+        margin-left: 3%;
+        font-size: 1.1em;
+        color: red;
+    }
+
+    .selectPizzaButton {
+        display: inline-block;
+        align-self: flex-end;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        color: #739b16;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectPizzaButton:hover,
+    .selectPizzaButton:focus {
+        background-color: #fffbcf;
+        color: #9b1616;
+    }
+}
+
+
+/* ! 5.Стили для устройств с шириной экрана от 1600px и выше */
+@media screen and (min-width: 1600px) {
+    .list {
+        display: grid;
+        /* ! Задаем 4 столбца равной ширины */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .listItem {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        border: 2px solid rgb(120, 196, 130);
+        border-radius: 8px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+        /* outline: 1px solid tomato; */
+    }
+
+    .imagePizza {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    }
+
+    .namePizza {
+        flex-grow: 1;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 1.0em;
+        color: blue;
+    }
+
+    .pricePizza {
+        margin-left: 7%;
+        font-size: 1.1em;
+        color: red;
+    }
+
+    .selectPizzaButton {
+        display: inline-block;
+        align-self: flex-end;
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: 700;
+        cursor: pointer;
+        color: #739b16;
+        border: 1px solid rgb(120, 196, 130);
+        border-radius: 4px;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .selectPizzaButton:hover,
+    .selectPizzaButton:focus {
+        background-color: #fffbcf;
+        color: #9b1616;
+    }
+}

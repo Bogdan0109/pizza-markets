@@ -1,0 +1,157 @@
+[
+    {
+        "id": "1",
+        "shop": "Pizza Mexico",
+        "pizzas": [
+            {
+                "pizza": "ВРЕМЕНА ГОДА",
+                "price": 337,
+                "picture": "https://cdn-icons-png.flaticon.com/512/4537/4537021.png"
+            },
+            {
+                "pizza": "ГАВАЙИ",
+                "price": 177,
+                "picture": "https://cdn-icons-png.flaticon.com/512/8245/8245307.png"
+            },
+            {
+                "pizza": "НОСТРАНО",
+                "price": 177,
+                "picture": "https://cdn-icons-png.flaticon.com/512/219/219969.png"
+            },
+            {
+                "pizza": "ОШИБКА ПОВАРА",
+                "price": 187,
+                "picture": "https://cdn-icons-png.flaticon.com/512/6454/6454443.png"
+            },
+            {
+                "pizza": "ПРИМАВЕРА",
+                "price": 167,
+                "picture": "https://cdn-icons-png.flaticon.com/512/3677/3677254.png"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "shop": "Mono Pizza",
+        "pizzas": [
+            {
+                "pizza": "АВАТАР",
+                "price": 499,
+                "picture": "https://cdn-icons-png.flaticon.com/512/7789/7789903.png"
+            },
+            {
+                "pizza": "ХЕТ ТРІК",
+                "price": 549,
+                "picture": "https://cdn-icons-png.flaticon.com/512/6389/6389696.png"
+            },
+            {
+                "pizza": "СМАЧНА ПАРА",
+                "price": 319,
+                "picture": "https://cdn-icons-png.flaticon.com/512/149/149076.png"
+            },
+            {
+                "pizza": "ПІЦА 4 СИРИ",
+                "price": 149,
+                "picture": "https://cdn-icons-png.flaticon.com/512/194/194931.png"
+            },
+            {
+                "pizza": "ПІЦА ДЬЯБОЛА",
+                "price": 279,
+                "picture": "https://cdn-icons-png.flaticon.com/512/4537/4537069.png"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "shop": "Story Pizza",
+        "pizzas": [
+            {
+                "pizza": "Гранд Міт",
+                "price": 249,
+                "picture": "https://cdn-icons-png.flaticon.com/512/4537/4537021.png"
+            },
+            {
+                "pizza": "Мисливська мрія",
+                "price": 219,
+                "picture": "https://cdn-icons-png.flaticon.com/512/8245/8245307.png"
+            },
+            {
+                "pizza": "Жульєн",
+                "price": 229,
+                "picture": "https://cdn-icons-png.flaticon.com/512/219/219969.png"
+            },
+            {
+                "pizza": "Міт Х5",
+                "price": 289,
+                "picture": "https://cdn-icons-png.flaticon.com/512/6454/6454443.png"
+            },
+            {
+                "pizza": "Мексико",
+                "price": 239,
+                "picture": "https://cdn-icons-png.flaticon.com/512/3677/3677254.png"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "shop": "Domino's Pizza",
+        "pizzas": [
+            {
+                "pizza": "Діабло",
+                "price": 310,
+                "picture": "https://cdn-icons-png.flaticon.com/512/7789/7789903.png"
+            },
+            {
+                "pizza": "Чорізо",
+                "price": 296,
+                "picture": "https://cdn-icons-png.flaticon.com/512/6389/6389696.png"
+            },
+            {
+                "pizza": "Техас",
+                "price": 233,
+                "picture": "https://cdn-icons-png.flaticon.com/512/149/149076.png"
+            },
+            {
+                "pizza": "Мангеттен",
+                "price": 232,
+                "picture": "https://cdn-icons-png.flaticon.com/512/194/194931.png"
+            },
+            {
+                "pizza": "Кантрі",
+                "price": 287,
+                "picture": "https://cdn-icons-png.flaticon.com/512/4537/4537069.png"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "shop": "Pizza House",
+        "pizzas": [
+            {
+                "pizza": "Маргарита",
+                "price": 180,
+                "picture": "https://cdn-icons-png.flaticon.com/512/4537/4537021.png"
+            },
+            {
+                "pizza": "Чотири сезони",
+                "price": 260,
+                "picture": "https://cdn-icons-png.flaticon.com/512/8245/8245307.png"
+            },
+            {
+                "pizza": "Вегетаріанська",
+                "price": 245,
+                "picture": "https://cdn-icons-png.flaticon.com/512/219/219969.png"
+            },
+            {
+                "pizza": "Мюнхенська",
+                "price": 250,
+                "picture": "https://cdn-icons-png.flaticon.com/512/6454/6454443.png"
+            },
+            {
+                "pizza": "Американо",
+                "price": 280,
+                "picture": "https://cdn-icons-png.flaticon.com/512/3677/3677254.png"
+            }
+        ]
+    }
+]

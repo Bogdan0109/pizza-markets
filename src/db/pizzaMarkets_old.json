@@ -1,0 +1,132 @@
+[
+    {
+        "id": "1",
+        "shop": "Pizza Mexico",
+        "pizzas": [
+            {
+                "pizza": "ВРЕМЕНА ГОДА",
+                "price": 337
+            },
+            {
+                "pizza": "ГАВАЙИ",
+                "price": 177
+            },
+            {
+                "pizza": "НОСТРАНО",
+                "price": 177
+            },
+            {
+                "pizza": "ОШИБКА ПОВАРА",
+                "price": 187
+            },
+            {
+                "pizza": "ПРИМАВЕРА",
+                "price": 167
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "shop": "Mono Pizza",
+        "pizzas": [
+            {
+                "pizza": "АВАТАР",
+                "price": 499
+            },
+            {
+                "pizza": "ХЕТ ТРІК",
+                "price": 549
+            },
+            {
+                "pizza": "СМАЧНА ПАРА",
+                "price": 319
+            },
+            {
+                "pizza": "ПІЦА 4 СИРИ",
+                "price": 149
+            },
+            {
+                "pizza": "ПІЦА ДЬЯБОЛА",
+                "price": 279
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "shop": "Story Pizza",
+        "pizzas": [
+            {
+                "pizza": "Гранд Міт",
+                "price": 249
+            },
+            {
+                "pizza": "Мисливська мрія",
+                "price": 219
+            },
+            {
+                "pizza": "Жульєн",
+                "price": 229
+            },
+            {
+                "pizza": "Міт Х5",
+                "price": 289
+            },
+            {
+                "pizza": "Мексико",
+                "price": 239
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "shop": "Domino's Pizza",
+        "pizzas": [
+            {
+                "pizza": "Діабло",
+                "price": 310
+            },
+            {
+                "pizza": "Чорізо",
+                "price": 296
+            },
+            {
+                "pizza": "Техас",
+                "price": 233
+            },
+            {
+                "pizza": "Мангеттен",
+                "price": 232
+            },
+            {
+                "pizza": "Кантрі",
+                "price": 287
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "shop": "Pizza House",
+        "pizzas": [
+            {
+                "pizza": "Маргарита",
+                "price": 180
+            },
+            {
+                "pizza": "Чотири сезони",
+                "price": 260
+            },
+            {
+                "pizza": "Вегетаріанська",
+                "price": 245
+            },
+            {
+                "pizza": "Мюнхенська",
+                "price": 250
+            },
+            {
+                "pizza": "Американо",
+                "price": 280
+            }
+        ]
+    }
+]

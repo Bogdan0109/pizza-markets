@@ -1,0 +1,135 @@
+/* import styled from '@emotion/styled'; */
+
+
+.orderHistoryContainer {
+    width: 90vw;
+        height: 80vh;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    font-size: 16px;
+        font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(221, 241, 255);
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+.textContainer {
+    width: 100%;
+    height: 100%;
+    /* height: 88%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border: 2px solid rgb(255, 203, 223);
+    border-radius: 8px;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+.historyData {
+    width: 100%;
+    height: 35%;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    border: 2px solid rgb(255, 203, 223);
+        border-radius: 8px;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+.header {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: rgb(0, 111, 190);
+    text-decoration: underline;
+}
+
+.textKey {
+    color: rgb(0, 27, 150);
+}
+
+.textValue {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(150, 0, 0);
+}
+
+.historyOrder {
+    width: 100%;
+    height: 50%;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+    border: 2px solid rgb(255, 203, 223);
+        border-radius: 8px;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    /* outline: 1px solid blue; */
+}
+
+.linkButton {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
+    padding: 8px 16px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid rgb(255, 203, 223);
+    border-radius: 4px;
+    color: rgb(255, 124, 174);
+    background-color: inherit;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+}
+.linkButton:hover,
+.linkButton:focus {
+    color: rgb(0, 149, 255);
+    background-color: rgb(177, 223, 255);
+}
+
+.linkButtonConfirm {
+    color: #1c7900;
+}
+
+.informationTextContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informationText {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    color: rgb(99, 24, 24);
+    font-size: 3vw;
+    text-align: center;
+}

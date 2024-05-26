@@ -1,0 +1,76 @@
+/* import styled from '@emotion/styled'; */
+
+/* ! 1.ОБЩИЕ Стили для устройств с шириной экрана от 0 до 767px */
+.cartContainer {
+    position: relative;
+    width: 90vw;
+        /* height: 80vh; */
+        height: 79vh;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    padding: 20px 20px 30px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    font-size: 18px;
+        font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(255, 240, 240);
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+.сustomerDataForm {
+    overflow-y: auto;
+    width: 100%;
+        height: 20vh;
+        min-height: 220px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    border: 2px solid rgb(164, 214, 255);
+        border-radius: 8px;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+.customerOrder {
+    overflow-y: auto;
+    width: 100%;
+        /* height: 38vh; */
+        height: 40vh;
+    margin-bottom: 80px;
+    border: 2px solid rgb(164, 214, 255);
+        border-radius: 8px;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    /* outline: 1px solid blue; */
+}
+
+
+/* ! 2.Стили для устройств с шириной экрана от 768px и выше */
+@media screen and (min-width: 768px) {
+    .cartContainer {
+        flex-direction: row;
+            align-items: flex-start;
+        padding: 20px;
+        /* outline: 1px solid blue; */
+    }
+    
+    .сustomerDataForm {
+        flex-basis: 30vw;
+            min-width: 200px;
+            max-width: 350px;
+            height: 83%;
+    }
+
+    .customerOrder {
+        flex-grow: 1;
+        width: 60%;
+            height: 83%;
+        /* outline: 1px solid blue; */
+    }
+}

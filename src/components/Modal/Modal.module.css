@@ -1,0 +1,65 @@
+/* import styled from '@emotion/styled'; */
+
+/* ! 1.ОБЩИЕ Стили для устройств с шириной экрана от 0 до 599px */
+.overlay {
+  width: 100vw;
+    height: 100vh;
+  position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.overlayDefaultBgColor {
+  background-color: rgba(88, 88, 88, 0.5);
+}
+
+.overlayHomePageBgColor {
+  background-color: rgba(109, 108, 71, 0.5);
+}
+
+.overlayCartPageBgColor {
+  background-color: rgba(109, 71, 71, 0.5);
+}
+
+.modal {
+  /* width: 70vw; */
+  /* height: 40vh; */
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 0px;
+  /* background-color: #b9b9b9; */
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow:
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.modalWide {
+  width: 85vw;
+}
+
+
+/* ! 2.Стили для устройств с шириной экрана от 600px и до 1199px */
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+  .modal {
+    width: 55vw;
+  }
+}
+
+/* ! 3.Стили для устройств с шириной экрана от 1200px и до 1599px */
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+  .modal {
+    width: 40vw;
+  }
+}
+
+/* ! 4.Стили для устройств с шириной экрана от 1600px и выше */
+@media screen and (min-width: 1600px) {
+  .modal {
+    width: 35vw;
+  }
+}

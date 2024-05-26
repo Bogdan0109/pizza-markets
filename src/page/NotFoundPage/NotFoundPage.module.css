@@ -1,0 +1,44 @@
+/* import styled from '@emotion/styled'; */
+
+.containerNotFoundPage {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    outline: 1px solid tomato;
+
+}
+
+.textB {
+    text-align: center;
+    font-size: 64px;
+    color: crimson;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: darkred;
+}
+
+.buttonGoToHome {
+    display: inline-block;
+    min-width: 120px;
+    padding: 8px 10px;
+    font-weight: 700;
+    cursor: pointer;
+    /* text-align: center; */
+    border: 1px solid rgb(120, 196, 130);
+    border-radius: 4px;
+    color: #16739b;
+    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+}
+.buttonGoToHome:hover,
+.buttonGoToHome:focus {
+    background-color: #fffbcf;
+    color: #9b1616;
+}

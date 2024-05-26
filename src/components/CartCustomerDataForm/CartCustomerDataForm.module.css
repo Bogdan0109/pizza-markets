@@ -1,0 +1,85 @@
+/* import styled from '@emotion/styled'; */
+
+/* ! 1.ОБЩИЕ Стили для устройств с шириной экрана от 0 до 479px */
+    .form {
+        /* overflow-y: auto; */
+        width: 75vw;
+        height: 90%;
+        display: flex;
+            flex-direction: column;
+            /* justify-content: space-evenly; */
+            justify-content: center;
+        /* outline: 1px solid blue; */
+    }
+    
+    .label {
+        display: flex;
+            flex-direction: column;
+        margin-bottom: 6px;
+        font-size: 0.9em;
+        /* outline: 1px solid tomato; */
+    }
+
+    .input {
+        padding: 4px;
+            margin-top: 2px;
+        color: rgb(95, 0, 0);
+            background-color: rgb(236, 247, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(71, 181, 255);
+    }
+    .submitButtonFormOpacity {
+        opacity: 0.3;
+    }
+    .submitButtonForm {
+        position: absolute;
+        /* bottom: 50px; */
+        bottom: 36px;
+        right: 60px;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 8px 16px;
+        font-weight: 700;
+        cursor: pointer;
+        border: 1px solid rgb(71, 181, 255);
+        border-radius: 4px;
+        color: #29aaff;
+        background-color: rgb(253, 229, 229);
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .submitButtonForm:hover,
+    .submitButtonForm:focus {
+        color: #ac1d99;
+        background-color: rgb(255, 220, 220);
+    }
+
+
+/* ! 2.Стили для устройств с шириной экрана от 480px до 767px */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .form {
+        width: 65vw;
+    }
+
+    .submitButtonForm {
+        /* bottom: 50px; */
+        bottom: 36px;
+        right: 60px;
+    }
+}
+
+
+/* ! 3.Стили для устройств с шириной экрана от 768px и выше */
+@media screen and (min-width: 768px) {
+    .form {
+        width: 80%;
+        gap: 5vh;
+    }
+    
+    .label {
+        margin-bottom: 0px;
+    }
+    .submitButtonForm {
+        bottom: 35px;
+        right: 35px;
+    }
+}

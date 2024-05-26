@@ -1,0 +1,82 @@
+/* import styled from '@emotion/styled'; */
+
+
+/* ! 1.ОБЩИЕ Стили для устройств с шириной экрана от 0 до 767px */
+.modalWindow {
+    /* width: 100%; */
+        /* height: 100%; */
+    width: 70vw;
+        height: 40vh;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7%;
+    border: 2px solid rgb(164, 214, 255);
+        border-radius: 8px;
+    box-shadow: 8px 8px 18px rgb(59 43 14 / 23%);
+    background-color: rgb(253, 229, 229);
+}
+
+.modalTitle {
+    margin-bottom: -10px;
+    align-items: center;
+    font-size: 20px;
+        font-weight: 700;
+    color: #a70000;
+}
+
+.modalTitlePizza{
+    margin-bottom: 20px;
+    
+    color: #0043a7;
+}
+
+.questionMark {
+    color: #b90000;
+}
+
+.modalBtn {
+    padding: 8px 48px;
+    align-items: center;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 500;
+    outline: none;
+    border: none;
+        border-radius: 4px;
+    background-color: #810000;
+    box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+}
+
+.modalBtnYes {
+    color: #ffa2a2;
+    background-color: #810000;
+}
+.modalBtnYes:hover,
+.modalBtnYes:focus {
+    color: #ffd6d6;
+    background-color: #be0000;
+}
+
+.modalBtnNo {
+    color: #bcffa2;
+    background-color: #314200;
+}
+.modalBtnNo:hover,
+.modalBtnNo:focus {
+    color: #daffcb;
+    background-color: #567500;
+}
+
+
+/* ! 2.Стили для устройств с шириной экрана от 768px и выше */
+@media screen and (min-width: 768px) {
+    .modalWindow {
+        width: 40vw;
+    }
+}

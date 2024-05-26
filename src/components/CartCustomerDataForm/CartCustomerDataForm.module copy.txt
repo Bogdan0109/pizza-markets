@@ -1,0 +1,143 @@
+/* ! 1.Стили для устройств с шириной экрана от 320px до 479px */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .form {
+        width: 70vw;
+    }
+
+    .label {
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6px;
+    }
+
+    .input {
+        padding: 4px;
+        margin-top: 2px;
+        color: rgb(95, 0, 0);
+        background-color: rgb(236, 247, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(71, 181, 255);
+    }
+
+    .submitButtonFormOpacity {
+        opacity: 0.3;
+    }
+
+    .submitButtonForm {
+        position: absolute;
+        bottom: 50px;
+        right: 60px;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 8px 16px;
+        /* padding: 12px; */
+        font-weight: 700;
+        cursor: pointer;
+        border: 1px solid rgb(71, 181, 255);
+        border-radius: 4px;
+        color: #29aaff;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .submitButtonForm:hover,
+    .submitButtonForm:focus {
+        color: #ac1d99;
+        background-color: rgb(255, 220, 220);
+    }
+}
+
+
+/* ! 2.Стили для устройств с шириной экрана от 480px до 767px */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .form {
+        width: 60vw;
+    }
+
+    .label {
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6px;
+    }
+
+    .input {
+        padding: 4px;
+        margin-top: 2px;
+        color: rgb(95, 0, 0);
+        background-color: rgb(236, 247, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(71, 181, 255);
+    }
+
+    .submitButtonFormOpacity {
+        opacity: 0.3;
+    }
+
+    .submitButtonForm {
+        position: absolute;
+        bottom: 50px;
+        right: 60px;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 8px 16px;
+        font-weight: 700;
+        cursor: pointer;
+        border: 1px solid rgb(71, 181, 255);
+        border-radius: 4px;
+        color: #29aaff;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .submitButtonForm:hover,
+    .submitButtonForm:focus {
+        color: #ac1d99;
+        background-color: rgb(255, 220, 220);
+    }
+}
+
+
+/* ! 3.Стили для устройств с шириной экрана от 768px и выше */
+@media screen and (min-width: 768px) {
+    .form {
+        width: 80%;
+    }
+
+    .label {
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .input {
+        padding: 4px;
+        margin-top: 2px;
+        color: rgb(95, 0, 0);
+        background-color: rgb(236, 247, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(71, 181, 255);
+    }
+
+    .submitButtonFormOpacity {
+        opacity: 0.3;
+    }
+
+    .submitButtonForm {
+        position: absolute;
+        bottom: 35px;
+        right: 35px;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 8px 16px;
+        font-weight: 700;
+        cursor: pointer;
+        border: 1px solid rgb(71, 181, 255);
+        border-radius: 4px;
+        color: #29aaff;
+        box-shadow: 8px 8px 18px rgba(59, 43, 14, 0.23);
+    }
+    .submitButtonForm:hover,
+    .submitButtonForm:focus {
+        color: #ac1d99;
+        background-color: rgb(255, 220, 220);
+    }
+}
